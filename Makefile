@@ -47,7 +47,7 @@ CustomMac.rom: MakeMacRom RomMain.o
 #
 #   -Xlinker --oformat=binary
 #      When linking the code, don't apply any extra metadata regarding the
-#      program as a whole (such as ELF metadata (seen on Linux)).
+#      program as a whole (such as ELF metadata, as seen in Linux binaries).
 #
 
 RomMain.o: RomMain.cpp Picture.xbm Makefile
