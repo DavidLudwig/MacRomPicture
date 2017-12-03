@@ -16,7 +16,8 @@
 // Compiled with g++ flags:
 //  -Os -o romtest.o -fno-builtin -m68000 -nostdlib -mpcrel -Xlinker --oformat=binary
 //
-// Kudos to Jon Sharp, for blog post with details on useful gcc compiler flags:
+// Kudos to Jon Sharp, for blog posts with details on bare-metal 68k Mac programming:
+//   http://jonsharp.net/retrocomputing/bare-metal-macintosh-programming-part-1/
 //   http://jonsharp.net/retrocomputing/bare-metal-macintosh-programming-part-2/
 
 #include <stdint.h>
